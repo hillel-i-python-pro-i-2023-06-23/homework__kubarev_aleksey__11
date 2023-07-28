@@ -1,8 +1,8 @@
-# Homework №10
-Django. Простое view.
+# Homework №11
+Django. Templates. Data generators for users.
 
 ---
-![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework__kubarev_aleksey__10/actions/workflows/main-workflow.yml/badge.svg)
+![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework__kubarev_aleksey__11/actions/workflows/main-workflow.yml/badge.svg)
 
 ## 🏠 Homework
 
