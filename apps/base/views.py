@@ -9,8 +9,7 @@ def home_page(request):
         request=request,
         template_name="base/home_page.html",
         context={
-            "greetings_text": f"Welcome! This is the homepage of homework №11."
-        f"The current time in Kyiv is: {time}",
+            "greetings_text": f"Welcome! This is the homepage of homework №11." f"The current time in Kyiv is: {time}",
             "title": "Home page",
         },
     )

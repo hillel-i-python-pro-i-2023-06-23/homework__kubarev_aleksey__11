@@ -4,10 +4,12 @@ from collections.abc import Iterator
 
 faker = Faker()
 
+
 class User(NamedTuple):
     username: str
     email: str
     password: str
+
 
 def generate_user(used_usernames: set, used_emails: set, used_passwords: set) -> User:
     while True:
@@ -21,6 +23,7 @@ def generate_user(used_usernames: set, used_emails: set, used_passwords: set) ->
             used_passwords.add(password)
             return User(username=username, email=email, password=password)
 
+
 def users_generator(amount: int) -> Iterator[User]:
     used_usernames = set()
     used_emails = set()
@@ -28,6 +31,7 @@ def users_generator(amount: int) -> Iterator[User]:
 
     for index in range(1, amount + 1):
         yield generate_user(used_usernames, used_emails, used_passwords)
+
 
 def generate_list_of_users(amount: int = 100) -> list:
     users = users_generator(amount)
@@ -38,6 +42,7 @@ def generate_list_of_users(amount: int = 100) -> list:
         password = user.password
         list_of_users.append(f"<li><b>{username}</b> - <span>{email}</span> - <i>{password}</i></li>")
     return list_of_users
+
 
 def output_info(users_list: list) -> str:
     return "\n".join(users_list)
