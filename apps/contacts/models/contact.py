@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Animal(models.Model):
+class Contact(models.Model):
     name = models.CharField(max_length=100)
     age = models.PositiveSmallIntegerField(
         blank=True,

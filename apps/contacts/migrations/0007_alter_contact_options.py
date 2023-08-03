@@ -5,12 +5,12 @@ from django.db import migrations
 
 class Migration(migrations.Migration):
     dependencies = [
-        ("animals", "0006_animal_created_at_animal_modified_at"),
+        ("contacts", "0006_contact_created_at_contact_modified_at"),
     ]
 
     operations = [
         migrations.AlterModelOptions(
-            name="animal",
+            name="contact",
             options={"ordering": ["modified_at", "name"]},
         ),
     ]
