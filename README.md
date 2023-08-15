@@ -1,5 +1,5 @@
-# Homework №11
-Django. Templates. Data generators for users.
+# Homework №13
+Django. Contacts and CRUD.
 
 ---
 ![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework__kubarev_aleksey__11/actions/workflows/main-workflow.yml/badge.svg)
