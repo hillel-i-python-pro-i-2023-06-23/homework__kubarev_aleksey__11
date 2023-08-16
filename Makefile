@@ -4,7 +4,6 @@
 d-homework-i-run:
 	@bash ./scripts/d-homework-i-run.sh
 
-
 .PHONY: d-homework-i-purge
 # Make all actions needed for purge homework related data.
 d-homework-i-purge:
