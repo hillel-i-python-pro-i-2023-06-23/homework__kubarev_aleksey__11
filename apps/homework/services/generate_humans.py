@@ -22,7 +22,7 @@ def generate_human() -> Human:
     email_domain = faker.domain_name()
     return Human(
         username=f"Username: {login}",
-        email=f"Email: {user_name}{suffix}@{email_domain}",
+        email=f"Email: {email_domain}",
         password=f"Password: {safe_password}",
     )
 
