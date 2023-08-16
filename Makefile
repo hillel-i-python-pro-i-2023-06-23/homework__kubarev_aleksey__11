@@ -1,3 +1,4 @@
+
 .PHONY: d-homework-i-run
 # Make all actions needed for run homework from zero.
 d-homework-i-run:
@@ -60,3 +61,14 @@ pre-commit-run:
 # Run tools for all files.
 pre-commit-run-all:
 	@pre-commit run --all-files
+
+
+.PHONY: migrations
+# Make migrations
+migrations:
+	@python manage.py makemigrations
+
+.PHONY: migrate
+# Migrate
+migrate:
+	@python manage.py migrate
