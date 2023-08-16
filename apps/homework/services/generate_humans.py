@@ -20,11 +20,7 @@ def generate_human() -> Human:
     login = f"{user_name}_{suffix}"
     safe_password = secrets.token_urlsafe(16)
     email_domain = faker.domain_name()
-    return Human(
-        username=f"Username: {login}",
-        email=f"Email: {email_domain}",
-        password=f"Password: {safe_password}",
-    )
+    return Human(username=login, email=email_domain, password=safe_password)
 
 
 def generate_humans(amount: int) -> Iterator[Human]:
