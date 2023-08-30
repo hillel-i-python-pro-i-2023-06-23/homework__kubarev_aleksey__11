@@ -1,5 +1,5 @@
-# Homework №13
-Django. Contacts and CRUD.
+# Homework №18
+Django. Multiple requirements files.
 
 ---
 ![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework__kubarev_aleksey__11/actions/workflows/main-workflow.yml/badge.svg)

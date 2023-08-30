@@ -1,0 +1,4 @@
+# Core for web.
+django==4.2.4
+# For generate data
+faker==19.3.1
